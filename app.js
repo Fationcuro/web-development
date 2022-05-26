@@ -4,7 +4,9 @@ let job ={
     salary:'50000',
 };
 
-function calculateAdultYears
+function calculateAdultYears (){
+    
+}
 
 
 

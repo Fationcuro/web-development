@@ -1,1 +1,1 @@
- document.getElementById('emeri').innerHTML('Emri im');
+document.getElementById('somename').innerHTML('Une jam')

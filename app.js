@@ -1,1 +1,1 @@
-document.getElementById('somename').innerHTML('Une jam')
+document.getElementById('somename')

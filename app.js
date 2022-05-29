@@ -24,3 +24,21 @@ console.log(frutat);
 for (var i = 0; i<frutat.length; i++){
     console.log(frutat[i]);
 }
+
+//METODAT E ZAKONSHME TE MATRICAVE//
+
+console.log('si string kemi', frutat.toString());
+console.log(frutat.join('-'));
+console.log(frutat.pop(), frutat);
+console.log(frutat.pop('boronica '), frutat);
+frutat[4] = 'frut i ri';
+console.log(frutat);
+frutat.shift();
+console.log(frutat)
+frutat.unshift('kivi');
+console.log(frutat)
+
+
+var perimet = ['spec', 'patate', 'domate'];
+var frutatDhePerimet = frutat.concat(perimet);
+console.log(frutatDhePerimet)

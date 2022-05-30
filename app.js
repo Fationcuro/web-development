@@ -59,7 +59,3 @@
 // console.log(nxenesi.gjatesia)
 
 
-let barsalete = prompt('Rrumbullak strumbullak kur e prek te ben me gjak');
-if (barsalete==Iriqi){
-    document.write('ti e gjete')
-}

@@ -59,3 +59,10 @@
 // console.log(nxenesi.gjatesia)
 
 
+let mosha = prompt('Sa vjec mendoni se jam?');
+if (mosha=16){
+document.write('Ti e gjete!');
+}
+ else {
+    document.write('Me vjen keq, Provoni perseri!.')
+}

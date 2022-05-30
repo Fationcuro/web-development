@@ -59,9 +59,21 @@
 // console.log(nxenesi.gjatesia)
 
 
-let mosha = prompt('Sa vjec mendoni se jam?');
-if (mosha==16){
-document.write('Ti e gjete!');
-} else  {
-    document.write('Me vjen keq, Provoni perseri!.')
+// let mosha = prompt('Sa vjec mendoni se jam?');
+// if (mosha==16){
+// document.write('Ti e gjete!');
+// } else  {
+//     document.write('Me vjen keq, Provoni perseri!.')
+// }
+
+function moshaNeDite(){
+    let ditelindja = prompt('Ne cilin vit ke lindur');
+    let llogaritja = (2022 - ditelindja ) * 365;
+    let h1 = document.createTextNode('Ti ke jetuar' + llogaritja + 'dite');
+    h1.setAttribute('id', 'moshaNeDite');
+    h1.appendChild(pergjigja);
+    document.getElementById('flex-box-result').appendChild(h1);
+
 }
+
+function rivendosja

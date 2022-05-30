@@ -47,13 +47,19 @@
 // console.log(frutatDhePerimet.reverse());
 // console.log(frutatDhePerimet.sort());
 
-let nxenesi ={
-    emri:'Fation',
-    mbiemri:'Curo',
-    mosha:16,
-    gjatesia:180, 
-};
-console.log(nxenesi.emri)
-console.log(nxenesi.mbiemri)
-console.log(nxenesi.mosha)
-console.log(nxenesi.gjatesia)
+// let nxenesi ={
+//     emri:'Fation',
+//     mbiemri:'Curo',
+//     mosha:16,
+//     gjatesia:180, 
+// };
+// console.log(nxenesi.emri)
+// console.log(nxenesi.mbiemri)
+// console.log(nxenesi.mosha)
+// console.log(nxenesi.gjatesia)
+
+
+let barsalete = prompt('Rrumbullak strumbullak kur e prek te ben me gjak');
+if (barsalete==Iriqi){
+    document.write('ti e gjete')
+}

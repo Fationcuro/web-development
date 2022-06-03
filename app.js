@@ -7,10 +7,10 @@
 //     salary: 50000,
 // };
 
-let adultYears = age + 16;
-console.log(adultYears);
+// let adultYears = age - 16;
+// console.log(adultYears);
 
-age = 45;
-adultYears = age + 16;
+// age = 45;
+// adultYears = age - 16;
 
-console.log(adultYears);
+// console.log(adultYears);

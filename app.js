@@ -1,11 +1,16 @@
-let age = 32;
-let userName = 'Fation';
-let hobbies = ['Sport', 'Cooking', 'Reading'];
-let job = {
-    title:'Deeveloper',
-    place:'New York',
-    salary: 50000,
-};
+// let age = 16;
+// let userName = 'Fation';
+// let hobbies = ['Sport', 'Cooking', 'Reading'];
+// let job = {
+//     title:'Developer',
+//     place:'Albania',
+//     salary: 50000,
+// };
 
-alert(hobbies[0]);
-alert(job.place);
+let adultYears = age + 16;
+console.log(adultYears);
+
+age = 45;
+adultYears = age + 16;
+
+console.log(adultYears);

@@ -32,7 +32,6 @@ main{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-top: 50px;
 }
 .text-biography{
     color: white;
@@ -43,4 +42,14 @@ main{
 }
 .img-profile img{
     width: 400px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    justify-content:center ;
+
+}
+.social-network{
+    margin: 0px 20px;
+    cursor: pointer;
 }

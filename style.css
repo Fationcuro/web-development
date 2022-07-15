@@ -1,11 +1,30 @@
 body{
     background-color: black;
     font-family: 'Poppins', sans-serif;
+    padding: 15px 60px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 header h4{
     color: white;
     font-size: 36px;
 }
 .nav-bar{
-    
+    margin: 0px 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-bar li{
+    list-style: none;
+}
+.nav-bar li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: 400;
 }
